@@ -1,0 +1,20 @@
+
+.btn-form {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 20px;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  width: 200px;
+}
+
+.btn-form:hover {
+  border-color: #ffffff;
+}
+.btn-form:focus,
+.btn-form:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+} 

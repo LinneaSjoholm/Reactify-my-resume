@@ -1,0 +1,44 @@
+.header-container {
+    width: 100%;
+    height: 270px;
+    color: #4A5759;
+    line-height: 2rem;
+    background-color: blueviolet;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.content-container {
+    padding-top: 150px; /* Skapar avståndet från toppen */
+  }
+
+.header-container a {
+    text-decoration: none;
+    font-weight: 500;
+  }
+
+
+.logo {
+    font-size: 2rem;
+    margin: 0 0 0 100px;
+    color: #4A5759;
+    text-transform: uppercase;
+}
+
+.tagline {
+    margin: 0 0 0 100px;
+    color: #4A5759;
+    text-transform: uppercase;
+}
+
+.link-list {
+    display: flex;
+    gap: 20px;
+    margin: 0 0 0 100px;
+    list-style-type: none;
+    text-transform: uppercase;
+}
+

@@ -1,0 +1,23 @@
+.social-links {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin: 10px 0 0 120px;
+}
+
+/* Styla ikonerna */
+.social-links .svg-inline--fa {
+    font-size: 30px; /* Ange storlek på ikonerna */
+    margin: 0 10px; /* Ange mellanrum mellan ikonerna */
+    color: #333; /* Ange färg på ikonerna */
+}
+
+.social-links a:focus .svg-inline--fa,
+.social-links a:active .svg-inline--fa {
+    color: #40cd50; /* Ange färgen när länken är i fokus eller aktiv */
+}
+
+/* Styla hover-effekt på ikonerna */
+.social-links .svg-inline--fa:hover {
+    color: #007bff; /* Ange färg vid hover */
+}

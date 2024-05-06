@@ -1,0 +1,54 @@
+.App {
+    margin: 0;
+    padding: 0;
+  }
+  
+  #light {
+    background-color: white;
+    color: black;
+  }
+
+#light .header-container {
+    background-color: pink;
+}
+
+#light .header-container h1 {
+    color: rgb(255, 255, 255);
+}
+
+#light .header-container h2 {
+    color: rgb(255, 255, 255);
+}
+
+#light .header-container a {
+    color: rgb(255, 255, 255);
+}
+  
+#dark {
+    background-color: black;
+    color: white;
+  }
+
+#dark .header-container {
+    background-color: violet;
+}
+
+#dark .header-container h1 {
+    color: rgb(255, 255, 255);
+}
+
+#dark .header-container h2 {
+    color: rgb(255, 255, 255);
+}
+
+.switch {
+    display: flex;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+#dark .switch label {
+    color: white;
+}
+  
