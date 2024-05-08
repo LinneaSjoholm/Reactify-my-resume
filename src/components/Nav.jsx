@@ -1,40 +1,47 @@
 import { NavLink } from "react-router-dom";
-import '../styles/Navbar.css'
-import SocialLinks from "./SocialLinks";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faHome } from "@fortawesome/free-solid-svg-icons";
 
-function NavBar() {
+
+import '../styles/Nav.css'
+
+
+function Nav() {
+
   return (
-    <section className="header-container">
-      <h1 className="logo">Linnea Sjöholm</h1>
-      <h2 className="tagline">Studying to become a Frontend-developer</h2>
-      <nav className="link-options">
-        <ul className="link-list">
+   
+    <section className="nav__container">
+      <NavLink to="/" className="nav__home" activeClassName="active">
+    <FontAwesomeIcon icon={faHome} />
+    </NavLink>
+
+      <nav>
+        <ul className="nav__list">
           <li>
             <NavLink exact to="/"></NavLink>
           </li>
           <li>
             <NavLink to="/about"
             style={({ isActive }) => ({
-              color: isActive ? '#ffc0cb' : '#4A5759',
+              color: isActive ? 'rgba(252,70,107,1)' : '#ffff',
             })}>About me</NavLink>
           </li>
           <li>
             <NavLink to="/projects"
             style={({ isActive }) => ({
-              color: isActive ? '#ffc0cb' : '#4A5759',
+              color: isActive ? 'rgba(252,70,107,1)' : '#ffff',
             })}>Projects</NavLink>
           </li>
           <li>
             <NavLink to="/contact"
             style={({ isActive }) => ({
-              color: isActive ? '#ffc0cb' : '#4A5759',
+              color: isActive ? 'rgba(252,70,107,1)' : '#ffff',
             })}>Contact</NavLink>
           </li>
         </ul>
       </nav>
-      <SocialLinks />
     </section>
   );
 }
 
-export default NavBar;
+export default Nav

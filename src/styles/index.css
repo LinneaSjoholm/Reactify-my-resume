@@ -1,17 +1,9 @@
-
-
-                
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  font-weight: 400;
-
+  font-family: "Inter", sans-serif;
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
 }
 
 * {
@@ -20,4 +12,10 @@
   box-sizing: border-box;
 }
 
-
+body {
+  background: linear-gradient(190deg, rgba(247,138,71,1) 18%, 
+  rgba(255,163,107,1) 41%, rgba(255,120,147,1) 67%, rgba(252,70,107,1) 100%);
+  /* background: linear-gradient(50deg, rgba(255,209,204,1) 0%, rgba(252,70,107,1) 100%) no-repeat; */
+  height: 100vh; /* Sätt höjden för både html och body till 100% av fönsterhöjden */
+  width: 100vw;
+}

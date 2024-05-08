@@ -1,11 +1,12 @@
 .projects-container {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
-    background-color: rgb(123, 123, 123);
-    padding: 30px;
-    margin: 0;
-    line-height: 2rem;
+    gap: 30px;
+    padding: 50px 0;
+    color: white;
+    margin-top: 100px;
+    background-color: aqua;
 }
 
 .projects-container li {
@@ -15,10 +16,10 @@
 .projects-container a {
     text-decoration: none;
     color: white;
-    
 }
 .repos {
     display: flex;
-    flex-direction: row;
-    gap: 30px;
+    flex-direction: column;
+    gap: 50px;
+    margin-left: 400px;
 }

@@ -1,18 +1,20 @@
 import React from 'react';
 import FetchData from '../api/FetchData';
 import '../styles/Projects.css'
+import Footer from '../components/Footer';
 
 function Projects() {
     return (
+        <>
         <div className="projects-container">
-            <header className="title-projects">
-            </header>
+            <h1 className="title-projects">Check out my repositories</h1>
             <section>
-                <h2>Check out my repositories</h2>
                 <FetchData />
                 
             </section>
-        </div>
+            </div>
+        <Footer />
+        </>
     );
 }
 

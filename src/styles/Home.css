@@ -1,0 +1,96 @@
+
+.home__container {
+    display: flex;
+    flex-direction: column;
+    margin: 270px 0 0 150px;
+    position: relative;
+    z-index: 1;
+}
+
+.home__image-container {
+    position: absolute;
+    top: 240px;
+    right: 150px;
+}
+
+.home__image-container img {
+    max-width: 500px;
+    max-height: 500px;
+    border-radius: 50%;
+    z-index: 0;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.3);
+}
+
+.home__title {
+    font-size: 3.2rem;
+    font-weight: 700;
+    letter-spacing: 0.5rem;
+    margin: 0 0 40px 300px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.line {
+    width: 980px;
+    height: 50px;
+    background: linear-gradient(410deg,
+    rgba(34, 192, 195, 0.274) 0%, rgba(34, 192, 195, 0.128) 0%,
+    rgba(34, 192, 195, 0.128) 0%,rgba(34, 192, 195, 0) 5%,
+    rgba(252,70,107,1) 40%, rgba(247,138,71,1) 100%);
+    margin: -35px 0 0 350px;
+    z-index: 0;
+    border-radius: 50px;
+}
+.home__tagline {
+    font-size: 1rem;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
+    margin: -20px 0 0 290px;
+    z-index: 1;
+}
+
+.background__plant1 {
+    position: fixed;
+    left: 50px;
+    height: 100%;
+    z-index: -1;
+    top: 280px; /* Default position för mindre skärmar */
+}
+
+
+/* Mediaförfrågning för mindre skärmar */
+@media (max-width: 1600px) {
+    .home__container {
+        margin: 90px 0 0 0;
+    }
+    .home__image-container {
+        position: absolute; /* Återställ position för .home__image-container */
+        margin-top: -40px; /* Justera margin för .home__image-container */
+    }
+
+    .home__title {
+        margin: 50px 0 5px 120px; /* Justera marginals för textelement på mindre skärmar */
+    }
+    .home__tagline {
+        font-size: 0.8rem;
+        margin: 20px 0 0 190px; /* Justera marginals för textelement på mindre skärmar */
+    }
+    .line {
+        margin: -35px 0 0 216px; /* Justera margin för .line på mindre skärmar */
+    }
+
+    .nav__container.homepage {
+        top: 270px; /* Justera position för .nav__container.homepage på mindre skärmar */
+    }
+}
+
+/* Mediaförfrågning för större skärmar */
+@media (min-width: 1601px) {
+    .background__plant1 {
+        left: 50px;
+        top: 330px; /* Justera position för .background__bottom på större skärmar */
+    }
+    
+}

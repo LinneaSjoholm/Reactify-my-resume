@@ -1,0 +1,19 @@
+.background__top {
+    position: relative;
+    top: 0;
+    left: 1790px;
+    width: 100px;
+    height: 100px;
+    z-index: 1;
+}
+
+.background__top img {
+    width: 100%;
+}
+
+.switch__container {
+    position: fixed;
+    top: 50px;
+    right: 50px;
+    z-index: 100;
+}
