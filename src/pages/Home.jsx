@@ -1,16 +1,21 @@
 import '../styles/Home.css'
 import image1 from '../assets/profile.jpg'
 import plant1 from '../assets/plant1.png'
-import Footer from '../components/Footer'
 
 function Home() {
     return (
         <>
-        {/* <Switch /> */}
+        
+
+        <div className="home__background"><h1>LINNEA SJÖHOLM</h1></div>
+        <section className="home__wrapper">
         <section className="home__container">
-            <h1 className="home__title">Hey there! I'm Linnea,</h1>
-            <p className="home__tagline">where creativity meets code and innovation sparks to life</p>
+            <h1 className="home__title">Hey, I'm Linnea</h1>
+            <p className="home__tagline">where creativity meets code and<br></br> 
+            innovation sparks to life</p>
         </section>
+        </section>
+
         <div className="line"></div>
         <section className='home__image-container'>
         <img src={image1} alt="Linnea Sjöholm" className="home-image" />
@@ -20,7 +25,6 @@ function Home() {
         <img src={plant1} alt="plants" className="background-image" />
         </section>
         
-        <Footer />
         </>
     )
 }

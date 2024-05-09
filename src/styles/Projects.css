@@ -1,25 +1,41 @@
-.projects-container {
+.projects__container {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 30px;
-    padding: 50px 0;
-    color: white;
-    margin-top: 100px;
-    background-color: aqua;
+    justify-content: center;
+    padding: 20px 0;
 }
 
-.projects-container li {
-    list-style-type: none;
-    padding: 0;
+.projects__title {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    font-family: "Prata", serif;
+   color:rgba(252,70,107,1);
+   font-size: 2rem;
+   text-transform: lowercase;
+   letter-spacing: 2px;
 }
-.projects-container a {
-    text-decoration: none;
+.repos a {
+    font-size: smaller;
     color: white;
 }
+
 .repos {
+    gap: 10px;
+    padding-left: 50px;
     display: flex;
     flex-direction: column;
-    gap: 50px;
-    margin-left: 400px;
+    justify-content: center;
+    width: 300px;
+}
+
+.repo-title {
+    color: rgba(252,70,107,1);
+}
+
+.projects__wrapper-img {
+    width: 50%;
+    display: grid;
+    grid-template: repeat(2, 250px) / repeat(2, 400px);
+    align-items: center;
+    justify-content: center;
 }

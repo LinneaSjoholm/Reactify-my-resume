@@ -1,19 +1,20 @@
 import myInfo from "../data/myInfo"
-import Footer from "../components/Footer"
 import plant2 from "../assets/plant2.png"
-
 import '../styles/Aboutme.css'
 
 function AboutMe() {
   return (
     <>
+    
     <div className="about__container">
       <h1 className="about__title">Get to know me</h1>
-      <p className="about__info">My name is {myInfo.name}, and I'm {myInfo.age} years old. Nowadays, I reside in {myInfo.city},{myInfo.country} and have been living here since February. 
-        Originally, I come from Skåne, and the reason I ended up in  {myInfo.city} is because I wanted to embark on new adventures. 
-        Currently, I'm studying to become a {myInfo.education}, so this world is very new to me. 
-        I'm incredibly enthusiastic about diving into this field headfirst and embracing all the challenges and opportunities it brings. 
-        Let's see where this exciting journey takes me!</p>
+      <p className="about__info">I go by the name of {myInfo.name} and I'm {myInfo.age} years young. 
+      These days, you can find me nestled in the heart of {myInfo.city},  {myInfo.country}.
+      As of late, I've been immersing myself in the world of {myInfo.education}, a realm 
+      with endless possibilities. <br></br><br></br>
+      The journey ahead may be daunting, but my spirit is fueled by 
+      boundless enthusiasm to conquer every challenge that comes my way.
+      The future is unwritten, but I'm ready to script my own destiny.</p>
       
       <section className="about__skills">
       <h2 className="skills">My skills</h2>
@@ -28,8 +29,7 @@ function AboutMe() {
         <img src={plant2} alt="plants" className="background-image" />
         </section>
 
-        <Footer />
-</>
+    </>
 
   );
 }

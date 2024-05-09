@@ -1,12 +1,12 @@
 import React from 'react';
 import ContactForm from '../components/ContactForm'
 import '../styles/Contact.css'
-import Footer from '../components/Footer';
 import plant3 from '../assets/plant3.png'
 
 function Contact() {
     return (
         <>
+        
         <section className="contact__container">
             <h2 className="contact__title">Contact me</h2>
             <p className="contact__text">Have questions or want to get in touch? Fill out the form below.</p>
@@ -17,7 +17,6 @@ function Contact() {
         <img src={plant3} alt="plants" className="background-image" />
         </section>
 
-        <Footer />
         </>
     );
 }
