@@ -1,8 +1,11 @@
-import { combineReducers } from "@reduxjs/toolkit"
-import modeReducer from '../slices/modeSlice.js'
+import { combineReducers } from "@reduxjs/toolkit";
+import modeReducer from '../slices/modeSlice.js';
 
+// Kombinera reducer-funktioner från olika slicar till ett enda rotreducer-funktion.
 const rootReducer = combineReducers({
-    mode: modeReducer
+    // Ange namnet på varje reducer och associera dem med respektive slicar.
+    mode: modeReducer // modeReducer hanterar tillståndet för mörkt läge.
 });
 
-export default rootReducer
+// Exportera den sammanslagna rotreducer-funktionen.
+export default rootReducer;
