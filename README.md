@@ -1,13 +1,13 @@
-1. Clone -
+# Clone -
 git clone https://github.com/LinneaSjoholm/Reactify-my-resume.git
 
-2. Gå in i folder "reactify-my-resume" -
+# Gå in i folder "reactify-my-resume" -
 cd reactify-my-resume
 
-3. Installera alla dependencies -
+# Installera alla dependencies -
 npm install
 
-4. Starta projektet -
+# Starta projektet -
 npm run dev
 
 Här är min digitala portfolio, som jag har utvecklat med react.
