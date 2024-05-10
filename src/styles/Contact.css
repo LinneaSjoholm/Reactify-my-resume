@@ -22,8 +22,7 @@
 .background__plant3 {
    position: absolute;
    right: 40px;
-   z-index: 1;
-   top: 180px; /* Default position för mindre skärmar */
+   top: 180px; 
 }
 
 @media (min-width: 1600px) {
@@ -34,6 +33,15 @@
    }
 }
 
+/* Dark theme */
+
 .dark .contact__title {
    color: white;
+}
+
+/* Media querys */
+@media (max-width: 1600px) {
+   .contact__container {
+       margin-bottom: -3px;
+   }
 }

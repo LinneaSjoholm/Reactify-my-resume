@@ -3,7 +3,7 @@
     grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
     grid-gap: 2rem;
     align-items: center;
-    margin: 120px auto;
+    margin: 120px 0 0 590px;
     max-width: 800px;
     padding: 50px;
     border-radius: 20px;
@@ -49,8 +49,10 @@
     top: 140px; 
 }
 
+/* Dark theme */
+
 .dark .about__container {
-    background-color: rgb(87, 87, 87);
+    background-color: rgba(0, 0, 0, 0.872);
     color: rgb(255, 255, 255);
 }
 
@@ -60,4 +62,13 @@
 
 .dark .skills {
     color: white;
+}
+
+/* Media querys */
+
+@media (max-width: 1600px) {
+    .about__container {
+        margin: 100px 0 82px 390px;
+    }
+
 }

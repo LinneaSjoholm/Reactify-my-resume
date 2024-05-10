@@ -8,8 +8,7 @@ label {
     margin-bottom: 10px;
 }
 
-input[type="text"],
-input[type="email"],
+input,
 textarea {
     display: block;
     width: 500px;
@@ -22,8 +21,7 @@ textarea {
     resize: none;
 }
 
-input[type="text"]:focus,
-input[type="email"]:focus,
+input:focus,
 textarea:focus {
     outline: none;
     color: rgb(88, 88, 88);
@@ -31,8 +29,8 @@ textarea:focus {
 
 .contact__form button {
     background-color: rgba(252,70,107,1);
-    align-self: flex-end;
     margin-bottom: 30px;
+    align-self: flex-end;
 }
 
 .dark .contact__form button {

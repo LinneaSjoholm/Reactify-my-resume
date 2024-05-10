@@ -1,10 +1,8 @@
-import { NavLink } from "react-router-dom";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faHome } from "@fortawesome/free-solid-svg-icons";
-
+import { NavLink } from "react-router-dom"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faHome } from "@fortawesome/free-solid-svg-icons"
 
 import '../styles/Nav.css'
-
 
 function Nav() {
 

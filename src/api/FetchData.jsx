@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react'
 
 function FetchData() {
     const URL = "https://api.github.com/users/LinneaSjoholm/repos";
@@ -27,4 +27,4 @@ function FetchData() {
     );
 }
 
-export default FetchData;
+export default FetchData

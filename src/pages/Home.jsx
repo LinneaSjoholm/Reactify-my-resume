@@ -5,9 +5,6 @@ import plant1 from '../assets/plant1.png'
 function Home() {
     return (
         <>
-        
-
-        <div className="home__background"><h1>LINNEA SJÖHOLM</h1></div>
         <section className="home__container">
             <h1 className="home__title">Hey, I'm Linnea</h1>
             <p className="home__tagline">where creativity meets code and<br></br> 
@@ -22,7 +19,6 @@ function Home() {
         <section className="background__plant1">
         <img src={plant1} alt="plants" className="background-image" />
         </section>
-        
         </>
     )
 }

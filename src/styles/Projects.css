@@ -40,10 +40,20 @@
     justify-content: center;
 }
 
+/* Dark theme */
+
 .dark .projects__title {
     color: white;
 }
 
 .dark .repo-title {
     color: white;
+}
+
+/* Media querys */
+
+@media (max-width: 1600px) {
+    .projects__container {
+        margin-bottom: -16px;
+    }
 }

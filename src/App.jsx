@@ -19,7 +19,7 @@ const App = () => {
 
   return (
     <BrowserRouter>
-    
+    <div className="name__background"><h1>LINNEA SJÖHOLM</h1></div>
      <div className={darkMode ? 'dark' : ''}>
         <div className="icon-container" onClick={() => {dispatch(setMode(!darkMode))}}>
           {darkMode ? (<MdOutlineLightMode size={50} />) : (<MdOutlineDarkMode size={50} />)}
@@ -32,11 +32,12 @@ const App = () => {
         <Route path="/about" element={<AboutMe />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
+     
       <Footer />
-
       </div>
+      
     </BrowserRouter>
   );
 }
 
-export default App;
+export default App

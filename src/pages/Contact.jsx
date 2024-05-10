@@ -1,4 +1,4 @@
-import React from 'react';
+
 import ContactForm from '../components/ContactForm'
 import '../styles/Contact.css'
 import plant3 from '../assets/plant3.png'
@@ -21,4 +21,4 @@ function Contact() {
     );
 }
 
-export default Contact;
+export default Contact
