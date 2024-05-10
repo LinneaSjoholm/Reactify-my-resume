@@ -1,20 +1,12 @@
 
-.btn-form {
+Button {
+  font-family: "PT Sans", sans-serif;
   border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 20px;
-  font-size: 0.9rem;
-  text-transform: uppercase;
+  border: none;
+  padding: 10px;
+  text-transform: lowercase;
   background-color: #1a1a1a;
   cursor: pointer;
-  transition: border-color 0.25s;
-  width: 200px;
+  width: 150px;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
 }
-
-.btn-form:hover {
-  border-color: #ffffff;
-}
-.btn-form:focus,
-.btn-form:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-} 

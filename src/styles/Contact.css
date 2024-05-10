@@ -1,43 +1,47 @@
-.contact-container {
-   margin: 0;
-   padding: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.contact__container {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
 }
 
-.contact-title {
-    font-size: 2rem;
-    text-transform: uppercase;
-    margin-bottom: 20px;
-
+.contact__title {
+   font-family: "Prata", serif;
+   color:rgba(252,70,107,1);
+   font-size: 2rem;
+   text-transform: lowercase;
+   letter-spacing: 2px;
+   margin-top: 30px;
 }
 
-.contact-form {
-    display: grid;
-    grid-template-columns: 70px 1fr; 
-    grid-gap: 10px; 
-    width: 30%;
-    margin-top: 20px;
- }
- 
- .contact-form label {
-    grid-column: 1; 
-    align-self: center; 
- }
- 
- .contact-form input,
- .contact-form textarea {
-    grid-column: 2; 
-    padding: 10px;
-    margin: 5px;
-    border-radius: 5px;
-    border: none;
- }
- 
- .contact-form .btn-form {
-   grid-column: 1 / -1; 
-   justify-self: end; 
-   padding: 10px;
+.contact__text {
+   font-size: 1rem;
+   margin-bottom: 20px;
+}
+
+.background__plant3 {
+   position: absolute;
+   right: 40px;
+   top: 180px; 
+}
+
+@media (min-width: 1600px) {
+   .background__plant3 {
+       top: 270px;
+       right: 150px;
+       z-index: 1;
+   }
+}
+
+/* Dark theme */
+
+.dark .contact__title {
+   color: white;
+}
+
+/* Media querys */
+@media (max-width: 1600px) {
+   .contact__container {
+       margin-bottom: -3px;
+   }
 }

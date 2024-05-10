@@ -1,27 +1,30 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react'
 
 function FetchData() {
     const URL = "https://api.github.com/users/LinneaSjoholm/repos";
-    const [data, setData] = useState([]);
+    const [repos, setRepos] = useState([]);
 
-    useState(() => {
+    useEffect(() => {
         fetch(URL)
-            .then((resp) => resp.json())
+            .then((response) => response.json())
             .then((data) => {
-                setData(data);
-                console.log(data); 
+                setRepos(data);
+            })
+            .catch((error) => {
+                console.error('Error fetching data: ', error);
             });
     }, []);
 
     return (
         <section className="repos">
-                {data.map((repo) => (
-                    <li key={repo.id}>
-                        <a href={repo.html_url}>{repo.name}</a>
-                    </li>
-                ))}
+            {repos.map((repo) => (
+                <div key={repo.id}>
+                    <h2 className="repo-title">{repo.name}</h2>
+                    <a href={repo.html_url}>View on GitHub</a>
+                </div>
+            ))}
         </section>
-    )
+    );
 }
 
-export default FetchData;
+export default FetchData

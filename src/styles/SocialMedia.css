@@ -1,0 +1,15 @@
+
+.socialmedia-links .svg-inline--fa {
+    font-size: 30px; 
+    color: #ffff; 
+    margin-left: 10px;
+}
+
+.socialmedia-links a:focus .svg-inline--fa,
+.socialmedia-links a:active .svg-inline--fa {
+    color: rgba(252,70,107,1); 
+}
+
+.socialmedia-links .svg-inline--fa:hover {
+    color: rgba(252,70,107,1);
+}

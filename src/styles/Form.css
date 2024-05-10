@@ -1,0 +1,39 @@
+.contact__form {
+    display: flex;
+    flex-direction: column;
+}
+label {
+    display: flex;
+    font-size: 0.8rem;
+    margin-bottom: 10px;
+}
+
+input,
+textarea {
+    display: block;
+    width: 500px;
+    background-color: rgba(206, 206, 206, 0.469);
+    padding: 10px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    resize: none;
+}
+
+input:focus,
+textarea:focus {
+    outline: none;
+    color: rgb(88, 88, 88);
+}
+
+.contact__form button {
+    background-color: rgba(252,70,107,1);
+    margin-bottom: 30px;
+    align-self: flex-end;
+}
+
+.dark .contact__form button {
+    background-color: rgb(255, 255, 255);
+    color: rgba(252,70,107,1);
+}
