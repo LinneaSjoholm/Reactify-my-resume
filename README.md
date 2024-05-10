@@ -12,9 +12,9 @@ npm run dev
 
 Här är min digitala portfolio, som jag har utvecklat med react.
 Mappar i projektet:
-Api - Integrera ett externt API för att visa mina repon
-Assets - Bilder
-Components - Återanvändbara komponenter
+Api - Integrera ett externt API för att visa mina repon.
+Assets - Bilder.
+Components - Återanvändbara komponenter.
 Data - samlad information om mig som jag sedan kan skicka som props och importerar i "home.jsx".
 Reducer/slices - Delar av min funktion för light/dark-mode, importerar dessa i "App.jsx".
  Styles - Här har jag alla mina styles till mitt projekt. Valde att skapa en egen mapp till det för att jag har ett litet projekt.
