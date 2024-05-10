@@ -23,15 +23,15 @@ a {
 }
 
 .nav__home {
-    color: white; /* Vit färg som standard */
-    text-decoration: none; /* Avmarkera understrykning */
+    color: white; 
+    text-decoration: none; 
   }
   
   .nav__home.active {
-    color: rgba(252,70,107,1); /* Färg när länken är aktiv */
+    color: rgba(252,70,107,1);
   }
 
 .dark .nav__container {
-  background-color: black;
+  background-color: rgb(75, 56, 56);
 }
 
