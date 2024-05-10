@@ -1,13 +1,13 @@
 # Clone -
 git clone https://github.com/LinneaSjoholm/Reactify-my-resume.git
 
-# Gå in i folder "reactify-my-resume" -
+# Gå in i folder "reactify-my-resume" 
 cd reactify-my-resume
 
-# Installera alla dependencies -
+# Installera alla dependencies 
 npm install
 
-# Starta projektet -
+# Starta projektet 
 npm run dev
 
 Här är min digitala portfolio, som jag har utvecklat med react.
@@ -19,8 +19,7 @@ Data - samlad information om mig som jag sedan kan skicka som props och importer
 Reducer/slices - Delar av min funktion för light/dark-mode, importerar dessa i "App.jsx".
  Styles - Här har jag alla mina styles till mitt projekt. Valde att skapa en egen mapp till det för att jag har ett litet projekt.
 
-Dependencies som jag har instrallerat och använt. 
-
+# Dependencies som jag har instrallerat och använt.
 "@fortawesome/free-brands-svg-icons": "^6.5.2",
 "@fortawesome/free-regular-svg-icons": "^6.5.2",
 "@fortawesome/free-solid-svg-icons": "^6.5.2",
