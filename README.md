@@ -1,4 +1,4 @@
-# Clone -
+# Clone 
 git clone https://github.com/LinneaSjoholm/Reactify-my-resume.git
 
 # Gå in i folder "reactify-my-resume" 
@@ -10,7 +10,7 @@ npm install
 # Starta projektet 
 npm run dev
 
-Här är min digitala portfolio, som jag har utvecklat med react.
+# Här är min digitala portfolio, som jag har utvecklat med react.
 Mappar i projektet:
 Api - Integrera ett externt API för att visa mina repon.
 Assets - Bilder.
