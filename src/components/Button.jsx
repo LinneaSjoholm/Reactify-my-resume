@@ -1,13 +1,13 @@
-import React from 'react';
-import '../styles/Button.css';
 
-function Button({ onClick, children, className }) {
+import '../styles/Button.css'
+
+function Button({ onClick, children }) {
   return (
-    <button className="btn-form" onClick={onClick}>
+    <button onClick={onClick}>
       {children}
     </button>
   );
 }
 
 
-export default Button;
+export default Button

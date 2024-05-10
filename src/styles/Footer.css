@@ -1,0 +1,40 @@
+footer {
+    background: rgb(253, 194, 158);
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: rgba(252,70,107,1);
+}
+
+.footer__copyright {
+    display: flex;
+    justify-content: center;
+    font-size: smaller;
+    text-transform: uppercase;
+    font-family: "PT Sans", sans-serif;
+}
+
+.footer__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    font-family: "Prata", sans-serif;
+    text-transform: lowercase;
+}
+/* Dark theme */
+.dark footer {
+    background: rgb(0, 0, 0);
+    color: rgba(252,70,107,1);
+}
+
+/* Media querys */
+
+@media (max-width: 1600px) {
+    footer {
+position : static;
+padding: 50px;
+    }
+}
+
