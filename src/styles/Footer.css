@@ -29,3 +29,8 @@ footer {
         position: relative;
     }
 }
+
+.dark footer {
+    background: rgb(0, 0, 0);
+    color: rgba(252,70,107,1);
+}

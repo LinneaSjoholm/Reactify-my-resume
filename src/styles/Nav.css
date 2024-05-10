@@ -31,3 +31,7 @@ a {
     color: rgba(252,70,107,1); /* Färg när länken är aktiv */
   }
 
+.dark .nav__container {
+  background-color: black;
+}
+

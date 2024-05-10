@@ -33,3 +33,7 @@
        z-index: 1;
    }
 }
+
+.dark .contact__title {
+   color: white;
+}

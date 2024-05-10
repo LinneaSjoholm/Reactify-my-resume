@@ -1,7 +1,6 @@
 
 import FetchData from '../api/FetchData'
 import '../styles/Projects.css'
-import Footer from '../components/Footer'
 import figmamockup from '../assets/figmamockup.png'
 import reactifymyresume from '../assets/reactifymyresume.png'
 import sneakerstore from '../assets/sneakerstore.png'

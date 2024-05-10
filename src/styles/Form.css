@@ -34,3 +34,8 @@ textarea:focus {
     align-self: flex-end;
     margin-bottom: 30px;
 }
+
+.dark .contact__form button {
+    background-color: rgb(255, 255, 255);
+    color: rgba(252,70,107,1);
+}

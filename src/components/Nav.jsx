@@ -9,8 +9,8 @@ import '../styles/Nav.css'
 function Nav() {
 
   return (
-   
-    <section className="nav__container">
+      <section className="nav__container">
+
       <NavLink to="/" className="nav__home" activeClassName="active">
     <FontAwesomeIcon icon={faHome} />
     </NavLink>
@@ -40,7 +40,7 @@ function Nav() {
           </li>
         </ul>
       </nav>
-    </section>
+      </section>
   );
 }
 

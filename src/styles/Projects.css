@@ -39,3 +39,11 @@
     align-items: center;
     justify-content: center;
 }
+
+.dark .projects__title {
+    color: white;
+}
+
+.dark .repo-title {
+    color: white;
+}

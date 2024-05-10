@@ -8,12 +8,10 @@ function Home() {
         
 
         <div className="home__background"><h1>LINNEA SJÖHOLM</h1></div>
-        <section className="home__wrapper">
         <section className="home__container">
             <h1 className="home__title">Hey, I'm Linnea</h1>
             <p className="home__tagline">where creativity meets code and<br></br> 
             innovation sparks to life</p>
-        </section>
         </section>
 
         <div className="line"></div>

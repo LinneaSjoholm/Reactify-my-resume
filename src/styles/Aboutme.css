@@ -49,3 +49,15 @@
     top: 140px; 
 }
 
+.dark .about__container {
+    background-color: rgb(87, 87, 87);
+    color: rgb(255, 255, 255);
+}
+
+.dark .about__title {
+    color: white;
+}
+
+.dark .skills {
+    color: white;
+}
