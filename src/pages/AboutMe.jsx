@@ -8,13 +8,13 @@ function AboutMe() {
     
     <div className="about__container">
       <h1 className="about__title">Get to know me</h1>
-      <p className="about__info">I go by the name of {myInfo.name} and I'm {myInfo.age} years young. 
+      <p className="about__info">My name is {myInfo.name} and I'm {myInfo.age} years old. 
       These days, you can find me nestled in the heart of {myInfo.city},  {myInfo.country}.
       As of late, I've been immersing myself in the world of {myInfo.education}, a realm 
       with endless possibilities. <br></br><br></br>
-      The journey ahead may be daunting, but my spirit is fueled by 
-      boundless enthusiasm to conquer every challenge that comes my way.
-      The future is unwritten, but I'm ready to script my own destiny.</p>
+      As I continue to delve into the world of Frontend Development, I am inspired by its boundless potential 
+      and the opportunities it presents for creative expression and innovation. 
+      With each passing day, I am driven to deepen my understanding and hone my skills in this dynamic field.</p>
       
       <section className="about__skills">
       <h2 className="skills">My skills</h2>

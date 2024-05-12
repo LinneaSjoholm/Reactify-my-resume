@@ -19,20 +19,6 @@
   rgba(255,163,107,1) 41%, rgba(255,120,147,1) 67%, rgba(252,70,107,1) 100%);
 }
 
-.name__background {
-  font-family: "Prata", serif;
-  position: absolute;
-  top: 135px;
-  left: -40px;
-  letter-spacing: 4rem;
-  font-size: 10rem;
-  opacity: 0.05;
-  line-height: 1.2;
-  overflow: hidden;
-  width: 100vw;
-  color: rgb(116, 40, 40);
-}
-
 .icon-container {
   position: absolute;
   margin-top: 42px;
