@@ -12,7 +12,7 @@ npm run dev
 
 ### Projekt
 Utvecklat en interaktiv SPA för min digitala portfolio. Använt mig av JS-ramverket react.
-På denna sida finns Homepage, "About me", "Projects" och "Contact". 
+På denna sida finns "Homepage", "About me", "Projects" och "Contact". 
 Fungerande länkar i footern och på "Projects". 
 
 Mappar i projektet:
