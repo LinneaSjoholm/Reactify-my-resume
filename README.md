@@ -1,4 +1,4 @@
-# Clone 
+## Clone 
 git clone https://github.com/LinneaSjoholm/Reactify-my-resume.git
 
 ## Gå in i folder "reactify-my-resume" 
